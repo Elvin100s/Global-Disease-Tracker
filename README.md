@@ -1,6 +1,7 @@
 # Global Disease Tracker
 
 A comprehensive web application for tracking global disease statistics and trends. This application provides real-time data visualization and country-specific information for various diseases, with a primary focus on COVID-19 data (additional diseases to be integrated).
+
 link :https://gorgeous-cajeta-ef2af3.netlify.app/
 ## Features
 
