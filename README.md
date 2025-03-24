@@ -27,6 +27,11 @@ link :https://gorgeous-cajeta-ef2af3.netlify.app/
 
 - [Disease.sh](https://disease.sh/) - Open Disease Data API
   - COVID-19 data
+  - Ebola
+  - Cancer
+  - Malaria
+  - Tuberculosis
+  - HIV/AIDS
   - Historical data
   - Country-specific information
 
