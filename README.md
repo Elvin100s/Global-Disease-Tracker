@@ -103,7 +103,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - e.cyubahiro@alustudent.com
 Project Link: [https://github.com/Elvin100s/global-disease-tracker]
 
 preview:https://gorgeous-cajeta-ef2af3.netlify.app/
