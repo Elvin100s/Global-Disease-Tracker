@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Disease Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Global Disease Tracker</h1>
+        <div class="search-container">
+            <input type="text" id="countrySearch" placeholder="Search for a country...">
+            <select id="diseaseFilter">
+                <option value="all">All Diseases</option>
+                <option value="covid19">COVID-19</option>
+                <option value="ebola">Ebola</option>
+                <option value="malaria">Malaria</option>
+                <option value="tuberculosis">Tuberculosis</option>
+                <option value="hiv">HIV/AIDS</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="stats-container">
+            <div class="global-stats">
+                <h2>Global Statistics</h2>
+                <div id="globalNumbers"></div>
+            </div>
+            <div class="chart-container">
+                <canvas id="globalChart"></canvas>
+            </div>
+        </div>
+
+        <div class="countries-grid" id="countriesGrid"></div>
+
+        <div id="countryModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalCountryName"></h2>
+                <div class="modal-stats" id="modalStats"></div>
+                <canvas id="countryChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Data provided by Disease.sh API | Created for Educational Purposes</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
